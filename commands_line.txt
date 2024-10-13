@@ -1,0 +1,35 @@
+
+create folder .venv
+pipvenv install django==4.0.8
+
+pipenv shell
+python manage.py runserver
+
+
+
+
+
+django-admin startproject base
+django-admin startproject web_project .
+
+
+
+
+python manage.py runserver
+python manage.py runserver
+
+
+python manage.py makemigrations # при изм - делаем миграцию
+python manage.py migrate	# записываем в БД
+python manage.py startapp hello
+
+
+--------------
+
+pipenv install pygame  # --pre  предид версия
+
+
+mkvirtualenv --pithon=/usr/bin/pithon3.8 portfoliovenv
+exit()
+workon portfoliovenv
+deactive
